@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_description1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_color" />
+
+    <ImageView
+        android:id="@+id/background1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_description2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/background2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_description3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/img_description4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/character"
+        app:layout_constraintBottom_toBottomOf="@+id/background_color"
+        app:layout_constraintEnd_toStartOf="@+id/viewbutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/background_color"
+        app:layout_constraintTop_toTopOf="@+id/comment_window"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backbutton"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+
+    <ImageView
+        android:id="@+id/comment_window"
+        android:layout_width="240dp"
+        android:layout_height="145dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@string/img_description5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/comment_window"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_time"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="110dp"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/comment_window"
+        app:layout_constraintEnd_toEndOf="@+id/comment_window"
+        app:layout_constraintStart_toStartOf="@+id/comment_window"
+        app:layout_constraintTop_toTopOf="@+id/comment_window" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="36dp"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/comment_window"
+        app:layout_constraintEnd_toEndOf="@+id/comment_window"
+        app:layout_constraintStart_toStartOf="@+id/comment_window"
+        app:layout_constraintTop_toTopOf="@+id/comment_window" />
+
+    <ImageButton
+        android:id="@+id/menubutton"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:backgroundTint="#00000000"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menubutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/comment_window"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/viewbutton"
+        android:layout_width="112dp"
+        android:layout_height="97dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/record"
+        app:layout_constraintBottom_toTopOf="@+id/menubutton"
+        app:layout_constraintEnd_toEndOf="@+id/comment_window"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comment_window"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/comment_window"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toEndOf="@+id/backbutton"
+        app:layout_constraintTop_toTopOf="@+id/background_color" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

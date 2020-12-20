@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">れな☆ドキ</string>
+    <string name="img_description1">image_background_color</string>
+    <string name="img_description2">image_background1</string>
+    <string name="img_description3">image_background2</string>
+    <string name="img_description4">image_character</string>
+    <string name="img_description5">image_comment_window</string>
+    <string name="start_screen">start screen!!!</string>
+    <string name="title_name">血 糖 値</string>
+    <string name="show">閲覧</string>
+    <string name="praisemonitor">褒める画面</string>
+    <string name="hint_key">company</string>
+    <string name="hint_value">血糖値</string>
+    <string name="insert">insert</string>
+    <string name="read">read</string>
+    <string name="delete">delete</string>
+    <string name="BGLmessage">血糖値を入力してね！</string>
+    <string name="morning">おはよう！</string>
+    <string name="hello">こんにちは！</string>
+    <string name="evening">こんばんは！</string>
+    <string name="midnight">なんでこんな時間に！？</string>
+    <array name="mesmo1">
+        <item>朝ごはんは食べたかな？</item>
+        <item>昨日はよく眠れたかな？</item>
+        <item>今日の調子はどうかな？</item>
+    </array>
+    <array name="mesmo2">
+        <item>元気に頑張っていこう！</item>
+        <item>今日も張り切っていこう！</item>
+        <item>今日もいい一日にしよう！</item>
+    </array>
+    <array name="meshe1">
+        <item>午前中お疲れ様！</item>
+        <item>お昼ごはんは食べたかな？</item>
+        <item>午前中はどうだったかな？</item>
+    </array>
+    <array name="meshe2">
+        <item>残り半日頑張ろう！</item>
+        <item>また夜に待ってるね！</item>
+        <item>午後も張り切っていこう！</item>
+    </array>
+    <array name="mesev1">
+        <item>今日も一日お疲れ様！</item>
+        <item>今日は何をしたのかな？</item>
+        <item>今日も一日大変だったね！</item>
+    </array>
+    <array name="mesev2">
+        <item>明日も待ってるね！</item>
+        <item>毎日コツコツ頑張ろう！</item>
+        <item>布団でしっかり休もうね！</item>
+    </array>
+    <array name="prmes1">
+        <item>ちゃんと測定できたね！</item>
+        <item>来てくれてありがとう！</item>
+        <item>今日も頑張ったね！</item>
+        <item>また会えたね！</item>
+    </array>
+    <array name="prmes2">
+        <item>また来てね！</item>
+        <item>お疲れ様！</item>
+        <item>次も頑張って！</item>
+        <item>また会えると嬉しいな！</item>
+        <item>えらいね！</item>
+    </array>
+    <string name="mesmid">早く寝ないと体調を崩しちゃうよ！おやすみ！</string>
+
+    <string name="grnewyear">あけましておめでとう！</string>
+    <string name="grsetubunn">今日は節分の日！</string>
+    <string name="grvalen">ハッピーバレンタイン！</string>
+    <string name="grwhite">今日はホワイトデー！</string>
+    <string name="grnewdate">今日から新年度！</string>
+    <string name="grchild">今日はこどもの日！</string>
+    <string name="grtanabata">7/7は七夕！</string>
+    <string name="grmount">今日は山の日！</string>
+    <string name="grhalloween">トリックオアトリート！</string>
+    <string name="grxmas">メリークリスマス！</string>
+    <string name="grfinalday">今日は大晦日！</string>
+    <string name="mesnewyear">今年もこのアプリのことよろしくね！</string>
+    <string name="messetubunn">鬼は外！福は内！豆の片付け大変だね！</string>
+    <string name="mesvalen">チョコレートの食べすぎには要注意だよ！</string>
+    <string name="mesnewdate">もしかしたら新生活が始まるかな？頑張って！</string>
+    <string name="mestanabata">天の川とか流星群を見に行きたいね！</string>
+    <string name="meshalloween">お菓子をくれなきゃイタズラしちゃうぞ！</string>
+    <string name="mesxmas">サンタさんからプレゼントが楽しみだね！</string>
+    <string name="mesfinalday">今年もお疲れ様！来年もよろしくね！</string>
+</resources>

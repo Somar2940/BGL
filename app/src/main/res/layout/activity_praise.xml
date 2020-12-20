@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Title">
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/clear_button_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bkg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_description1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_color" />
+
+    <ImageView
+        android:id="@+id/bkg2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_description2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/bkg3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_description3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/smilegirl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bkg1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/smilegirl" />
+
+    <ImageView
+        android:id="@+id/treturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bkg1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/treturn"/>
+
+    <ImageView
+        android:id="@+id/cmwin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="45dp"
+        android:src="@drawable/newcmwin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/prmes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cmwin"
+        app:layout_constraintEnd_toEndOf="@+id/cmwin"
+        app:layout_constraintStart_toStartOf="@+id/cmwin"
+        app:layout_constraintTop_toTopOf="@+id/cmwin"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/prmes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cmwin"
+        app:layout_constraintEnd_toEndOf="@+id/cmwin"
+        app:layout_constraintStart_toStartOf="@+id/cmwin"
+        app:layout_constraintTop_toTopOf="@+id/cmwin"
+        app:layout_constraintVertical_bias="0.8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
